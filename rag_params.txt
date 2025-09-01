@@ -1,0 +1,16 @@
+# Retrieval Augmented Generation implementation -> In Azure Search Service
+rag_params = {
+    "data_sources":[
+        {
+            "type": "azure_search",
+            "parameters": {
+                "endpoint": "GO TO AZURE SEARCH SERVICE AND GET THE URL",
+                "index_name": "THE INDEX NAME YOU'VE PROVIDED WHEN ADDING THE DATA FILE TO THE AZURE SEARCH SERVICE",
+                "authentication": {
+                    "type": "api_key",
+                    "key": "Afvs0324igi13jvFDWQ10AQRi0cWGsaqv1GSdovJASk11R22".
+                }
+            }
+        }
+    ]
+}
