@@ -1,0 +1,22 @@
+
+##CAPTIONS & TAGS
+# POST https://cv-jpa-az-102.cognitiveservices.azure.com/computervision/imageanalysis:analyze?features=caption,tags&model-version=latest&language=en&api-version=2024-02-01
+# Content-Type: application/octet-stream
+# Ocp-Apim-Subscription-Key: B9PezrhmAg0sruw3GOtNbCvmPJ734T215ESjPmM8M0Yp3zry8CQDJQQJ99BHAC5RqLJXJ3w3AAAFACOGR7q2
+
+# < ./img/images.jpg
+
+## OBJECT DETECTION
+# POST https://cv-jpa-az-102.cognitiveservices.azure.com/computervision/imageanalysis:analyze?features=objects&model-version=latest&language=en&api-version=2024-02-01
+# Content-Type: application/octet-stream
+# Ocp-Apim-Subscription-Key: B9PezrhmAg0sruw3GOtNbCvmPJ734T215ESjPmM8M0Yp3zry8CQDJQQJ99BHAC5RqLJXJ3w3AAAFACOGR7q2
+
+# < ./img/set-of-fruits.jpg
+
+## OCR
+# POST https://cv-jpa-az-102.cognitiveservices.azure.com/computervision/imageanalysis:analyze?features=read&model-version=latest&language=en&api-version=2024-02-01
+# Content-Type: application/octet-stream
+# Ocp-Apim-Subscription-Key: B9PezrhmAg0sruw3GOtNbCvmPJ734T215ESjPmM8M0Yp3zry8CQDJQQJ99BHAC5RqLJXJ3w3AAAFACOGR7q2
+
+# < ./img/quote.jpg
+
