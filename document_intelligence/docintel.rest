@@ -1,0 +1,11 @@
+POST https://di-jpa-az-102.cognitiveservices.azure.com/documentintelligence/documentModels/prebuilt-read:analyze?api-version=2024-11-30
+Content-Type: application/json
+Ocp-Apim-Subscription-Key: 66Wrn3h8eIK5xBPFBiOLuLzwDScNfkZut1oAiUC3IlRmP6I0VefbJQQJ99BHAC5RqLJXJ3w3AAALACOGCkXf
+
+{
+    "urlSource": "https://stgaccjpaaz102.blob.core.windows.net/docus/table-sample.png"
+}
+
+###
+GET https://di-jpa-az-102.cognitiveservices.azure.com/documentintelligence/documentModels/prebuilt-read/analyzeResults/6d1673a9-ca48-4892-8659-7bb571749bc0?api-version=2024-11-30
+Ocp-Apim-Subscription-Key: 66Wrn3h8eIK5xBPFBiOLuLzwDScNfkZut1oAiUC3IlRmP6I0VefbJQQJ99BHAC5RqLJXJ3w3AAALACOGCkXf
